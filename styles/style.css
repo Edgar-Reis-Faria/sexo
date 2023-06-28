@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body{
+   
+   height: 100vh;
+   box-sizing: border-box;
+    background-color: black;
+    color: white;
+ }
+ .putas-cu {
+    color: blue;
+ } 
+ .leste{
+    color: aquamarine;
+ }
+ .caralhos{
+   margin: 10% 15%;
+   display: flex;
+   justify-content: space-between;
+   gap: 32px;
+ }
+ .caralhos__kk{
+  width: 50%;
+  font-family: 'Petit Formal Script', cursive;
+  display: flex;
+  flex-direction: column;
+
+ }
+ .bluesao{
+  color: crimson;
+   
+ }
+ .caralhos__kk__cu{
+  justify-content: center;
+  font-weight: 700px;
+ 
+ }
+ .caralhos__kk__merda{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+ }
+ .merdinha{
+  color: aliceblue;
+  border: 8px solid cadetblue;
+  text-align: center;
+  width: 25%;
+  padding: 10px 0;
+  border-radius: 20px;
+  text-decoration: none;
+  color: pink;
+  font-size: 1rem;
+  font-weight: 900px;
+ }
+ .links_botoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .culhao{
+  width: 25%;
+ }
+ .merdinha:hover{
+  color: aliceblue;
+  border: 8px solid red;
+  text-align: center;
+  width: 25%;
+  padding: 10px 0;
+  border-radius: 20px;
+  text-decoration: none;
+  color: purple;
+  font-size: 1rem;
+  background-color: chocolate;
+  font-family: 'Petit Formal Script', cursive;
+ }
+ .rodape{
+  color:green;
+  text-align: center;
+  padding: 28px;
+  background-color: beige;
+  font-size: 1rem;
+  font-weight: 900px;
+  font-family: 'Petit Formal Script', cursive;
+ }
+ .cabecaralho{
+  padding: 5% 8%;
+ }
+ .cabecaralho__menu{
+  font-family:'Petit Formal Script', cursive;
+  font-size: 1rem;
+ 
+  text-align: center;
+  display: flex;
+  gap: 100px;
+ }
+
+ .cabecaralho__menu__negro-1{
+  color: bisque;
+  text-decoration: none;
+  border: 1px solid bisque;
+  border-radius: 15px;
+  font-size: 1rem;
+ }
+
+ .cabecaralho__menu__negro-2{
+  color: blue;
+  text-decoration: none;
+  border-radius: 15px;
+  border: 1px solid blue;
+  font-size: 1rem;
+  
+ }
+
+.cabecaralho__menu__links:hover{
+  color: aliceblue;
+  border: 8px solid red;
+  text-align: center;
+  width: 25%;
+  padding: 10px 0;
+  border-radius: 20px;
+  text-decoration: none;
+  color: purple;
+  font-size: 1rem;
+  background-color: chocolate;
+  font-family:'Petit Formal Script', cursive ;
+ }
+ .putas-pagina{
+  text-decoration: none;
+ }
+ .ultimo{
+  font-size: 3.125rem;
+  font-family:'Petit Formal Script', cursive;
+  color: blueviolet;
+ }
+ @media (max-width: 720px) {
+  .caralhos {
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: auto;
+    padding: 5%;
+  }
+  .cabecaralho__menu{
+    justify-content: center;
+  }
+  .links_botoes{
+    text-align: center;
+    display: flex;
+  }
+ }
